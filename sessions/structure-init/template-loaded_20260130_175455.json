@@ -1,0 +1,11 @@
+{
+  "data": {
+    "templateFile": "I:\\EVA-JP-v1.2\\docs\\eva-foundation\\projects\\01-documentation-generator\\.github\\supported-folder-structure.json",
+    "version": "1.0.0",
+    "projectType": "RAG",
+    "folderCount": 20
+  },
+  "checkpointId": "template-loaded",
+  "component": "structure-init",
+  "timestamp": "2026-01-30T17:54:55.3218532-05:00"
+}

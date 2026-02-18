@@ -1,0 +1,9 @@
+{
+  "checkpoint_id": "paths_validated",
+  "data": {
+    "target_path": "I:\\EVA-JP-v1.2\\docs\\eva-foundation\\projects\\01-documentation-generator",
+    "dry_run": false
+  },
+  "timestamp": "2026-01-29T22:59:11.8892433-05:00",
+  "component": "artifact-deployment"
+}
