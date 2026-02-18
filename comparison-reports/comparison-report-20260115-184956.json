@@ -1,0 +1,494 @@
+{
+  "timestamp": "2026-01-15T18:49:56.705462",
+  "original_dir": "..\\..\\generated-output-run-b",
+  "new_dir": "..\\..\\generated-output",
+  "overall_consistency_score": 0.4236489654206716,
+  "files_analyzed": 28,
+  "files_identical": 0,
+  "files_similar": 0,
+  "files_different": 28,
+  "files_missing": 0,
+  "summary": {
+    "analyzed": 28,
+    "identical": 0,
+    "similar": 0,
+    "different": 28,
+    "missing": 0
+  },
+  "file_comparisons": [
+    {
+      "filename": "00-overview\\executive-summary.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.6617647058823529,
+      "content_similarity": 0.29506506893441564,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+33 lines, -56 lines, ~33 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.30"
+      ],
+      "overall_score": 0.5460619462319136
+    },
+    {
+      "filename": "00-overview\\glossary-acronyms.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.75,
+      "content_similarity": 0.23483842408145197,
+      "yaml_consistency": false,
+      "section_consistency": true,
+      "traceability_consistency": true,
+      "diff_summary": "+67 lines, -66 lines, ~66 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Low content similarity: 0.23"
+      ],
+      "overall_score": 0.542419212040726
+    },
+    {
+      "filename": "00-overview\\scope-in-out.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.65,
+      "content_similarity": 0.35625485625485626,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+37 lines, -46 lines, ~37 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.36"
+      ],
+      "overall_score": 0.5731274281274281
+    },
+    {
+      "filename": "01-architecture\\logical-architecture.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.25,
+      "content_similarity": 0.1719417046960106,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+66 lines, -105 lines, ~66 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.17"
+      ],
+      "overall_score": 0.3609708523480053
+    },
+    {
+      "filename": "01-architecture\\network-topology.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.44047619047619047,
+      "content_similarity": 0.16550315000851354,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+78 lines, -80 lines, ~78 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.17"
+      ],
+      "overall_score": 0.4148944321471139
+    },
+    {
+      "filename": "01-architecture\\physical-architecture.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.25,
+      "content_similarity": 0.19597877270349054,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+73 lines, -101 lines, ~73 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.20"
+      ],
+      "overall_score": 0.3729893863517453
+    },
+    {
+      "filename": "01-architecture\\system-context.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.25,
+      "content_similarity": 0.2215904725316942,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+74 lines, -87 lines, ~74 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.22"
+      ],
+      "overall_score": 0.3857952362658471
+    },
+    {
+      "filename": "02-platform-components\\eva-chat.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.65,
+      "content_similarity": 0.1336489439184268,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+87 lines, -81 lines, ~81 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.13"
+      ],
+      "overall_score": 0.46182447195921345
+    },
+    {
+      "filename": "02-platform-components\\eva-domain-assistant.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.6944444444444444,
+      "content_similarity": 0.2142568387009837,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+92 lines, -80 lines, ~80 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.21"
+      ],
+      "overall_score": 0.5154617526838252
+    },
+    {
+      "filename": "02-platform-components\\shared-foundation-services.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.25,
+      "content_similarity": 0.14697406340057637,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+88 lines, -80 lines, ~80 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.15"
+      ],
+      "overall_score": 0.34848703170028816
+    },
+    {
+      "filename": "03-data-and-ai\\data-ingestion-pipeline.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.513157894736842,
+      "content_similarity": 0.3337288017307558,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+109 lines, -86 lines, ~86 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.33"
+      ],
+      "overall_score": 0.5208117692864305
+    },
+    {
+      "filename": "03-data-and-ai\\model-usage-and-guardrails.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.25,
+      "content_similarity": 0.17725136303816508,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+215 lines, -288 lines, ~215 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.18"
+      ],
+      "overall_score": 0.36362568151908253
+    },
+    {
+      "filename": "03-data-and-ai\\prompt-and-config-governance.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.25,
+      "content_similarity": 0.17903596021423107,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+128 lines, -192 lines, ~128 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.18"
+      ],
+      "overall_score": 0.36451798010711556
+    },
+    {
+      "filename": "03-data-and-ai\\rag-patterns.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.4880952380952381,
+      "content_similarity": 0.3194053836882282,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+77 lines, -55 lines, ~55 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.32"
+      ],
+      "overall_score": 0.5061312632726855
+    },
+    {
+      "filename": "04-security-and-compliance\\audit-and-logging.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.25,
+      "content_similarity": 0.473421358691934,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+227 lines, -207 lines, ~207 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.47"
+      ],
+      "overall_score": 0.511710679345967
+    },
+    {
+      "filename": "04-security-and-compliance\\privacy-and-retention.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.25,
+      "content_similarity": 0.1829318089015925,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+130 lines, -224 lines, ~130 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.18"
+      ],
+      "overall_score": 0.36646590445079624
+    },
+    {
+      "filename": "04-security-and-compliance\\rbac-model.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.25,
+      "content_similarity": 0.08473937617751727,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+243 lines, -138 lines, ~138 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.08"
+      ],
+      "overall_score": 0.31736968808875865
+    },
+    {
+      "filename": "04-security-and-compliance\\security-architecture.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.625,
+      "content_similarity": 0.1949284380833852,
+      "yaml_consistency": true,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+213 lines, -168 lines, ~168 changed",
+      "issues": [
+        "Section structure differs",
+        "Low content similarity: 0.19"
+      ],
+      "overall_score": 0.4849642190416926
+    },
+    {
+      "filename": "05-operations-conops\\backup-and-recovery.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.41666666666666663,
+      "content_similarity": 0.17003792667509482,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+236 lines, -137 lines, ~137 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.17"
+      ],
+      "overall_score": 0.4100189633375474
+    },
+    {
+      "filename": "05-operations-conops\\change-and-release.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.25,
+      "content_similarity": 0.1849383170686798,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+263 lines, -169 lines, ~169 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.18"
+      ],
+      "overall_score": 0.3674691585343399
+    },
+    {
+      "filename": "05-operations-conops\\incident-and-contingency.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.25,
+      "content_similarity": 0.11997135515396605,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+132 lines, -226 lines, ~132 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.12"
+      ],
+      "overall_score": 0.33498567757698305
+    },
+    {
+      "filename": "05-operations-conops\\onboarding-offboarding.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.41000000000000003,
+      "content_similarity": 0.4598713406033919,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+210 lines, -214 lines, ~210 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.46"
+      ],
+      "overall_score": 0.5529356703016959
+    },
+    {
+      "filename": "05-operations-conops\\operating-model.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.37,
+      "content_similarity": 0.1103005103005103,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+193 lines, -138 lines, ~138 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.11"
+      ],
+      "overall_score": 0.3661502551502552
+    },
+    {
+      "filename": "06-quality\\accessibility.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.25,
+      "content_similarity": 0.1298569372724964,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+278 lines, -153 lines, ~153 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.13"
+      ],
+      "overall_score": 0.3399284686362482
+    },
+    {
+      "filename": "06-quality\\performance-and-scalability.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.38636363636363635,
+      "content_similarity": 0.07436950146627566,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+142 lines, -240 lines, ~142 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.07"
+      ],
+      "overall_score": 0.35309384164222873
+    },
+    {
+      "filename": "06-quality\\testing-and-validation.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.375,
+      "content_similarity": 0.2775883808901135,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+189 lines, -122 lines, ~122 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.28"
+      ],
+      "overall_score": 0.45129419044505675
+    },
+    {
+      "filename": "99-traceability\\assumptions-risks-constraints.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.375,
+      "content_similarity": 0.16477247986065752,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+217 lines, -99 lines, ~99 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.16"
+      ],
+      "overall_score": 0.3948862399303288
+    },
+    {
+      "filename": "99-traceability\\requirements-mapping.md",
+      "exists_in_original": true,
+      "exists_in_new": true,
+      "structural_score": 0.25,
+      "content_similarity": 0.11755926251097454,
+      "yaml_consistency": false,
+      "section_consistency": false,
+      "traceability_consistency": true,
+      "diff_summary": "+233 lines, -108 lines, ~108 changed",
+      "issues": [
+        "YAML frontmatter differs",
+        "Section structure differs",
+        "Low content similarity: 0.12"
+      ],
+      "overall_score": 0.33377963125548726
+    }
+  ]
+}
