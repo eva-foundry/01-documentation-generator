@@ -4,7 +4,7 @@
 **Template Version**: 3.1.0
 **Last Updated**: 2026-02-25
 **Project**: 01-documentation-generator -- AI-powered EVA source code documentation generator
-**Path**: `C:\AICOE\eva-foundry\01-documentation-generator\`
+**Path**: `C:\eva-foundry\01-documentation-generator\`
 **Stack**: Python 3.10+
 
 > This file is the Copilot operating manual for this repository.
@@ -24,8 +24,8 @@ Before answering any question or writing any code:
 
 1. **Ping 37-data-model API**: `Invoke-RestMethod http://localhost:8010/health`
    - If `{"status":"ok"}` -> use HTTP queries for all discovery (fastest)
-   - If down -> start it: `$env:PYTHONPATH="C:\AICOE\eva-foundry\37-data-model"; C:\AICOE\.venv\Scripts\python -m uvicorn api.server:app --port 8010 --reload`
-   - If no venv -> fall back: `$m = Get-Content C:\AICOE\eva-foundry\37-data-model\model\eva-model.json | ConvertFrom-Json`
+   - If down -> start it: `$env:PYTHONPATH="C:\eva-foundry\37-data-model"; C:\eva-foundry\.venv\Scripts\python -m uvicorn api.server:app --port 8010 --reload`
+   - If no venv -> fall back: `$m = Get-Content C:\eva-foundry\37-data-model\model\eva-model.json | ConvertFrom-Json`
 
 2. **Read this project's governance docs** (in order):
    - `README.md` -- identity, stack, quick start
@@ -82,8 +82,8 @@ if (-not $h) {
     $base = "http://localhost:8010"
     $h = Invoke-RestMethod "$base/health" -ErrorAction SilentlyContinue
     if (-not $h) {
-        $env:PYTHONPATH = "C:\AICOE\eva-foundry\37-data-model"
-        Start-Process "C:\AICOE\.venv\Scripts\python.exe" `
+        $env:PYTHONPATH = "C:\eva-foundry\37-data-model"
+        Start-Process "C:\eva-foundry\.venv\Scripts\python.exe" `
             "-m uvicorn api.server:app --port 8010 --reload" -WindowStyle Hidden
         Start-Sleep 4
     }
@@ -186,8 +186,8 @@ print("[INFO] waiting...")
 ### 6. Python Environment
 
 ```
-venv exec: C:\AICOE\.venv\Scripts\python.exe
-activate:  C:\AICOE\.venv\Scripts\Activate.ps1
+venv exec: C:\eva-foundry\.venv\Scripts\python.exe
+activate:  C:\eva-foundry\.venv\Scripts\Activate.ps1
 ```
 
 Never use bare `python` or `python3`. Always use the full venv path.
@@ -226,7 +226,7 @@ Work state and sprint context are read from `STATUS.md` and `PLAN.md` at bootstr
 ### Project Identity
 
 **Name**: EVA Documentation Generator
-**Folder**: `C:\AICOE\eva-foundry\01-documentation-generator`
+**Folder**: `C:\eva-foundry\01-documentation-generator`
 **37-data-model record**: `GET /model/projects/01-documentation-generator`
 **Maturity**: active
 **Phase**: Phase 3 (Generator Module) -- Phases 1-2 complete (validators + evidence migrated 2026-01-15)
@@ -255,10 +255,10 @@ python-dotenv       -- env config
 
 ```powershell
 # Run all tests
-C:\AICOE\.venv\Scripts\python.exe -m pytest tests/ -v
+C:\eva-foundry\.venv\Scripts\python.exe -m pytest tests/ -v
 
 # With coverage
-C:\AICOE\.venv\Scripts\python.exe -m pytest tests/ -v --cov=src --cov-report=term-missing
+C:\eva-foundry\.venv\Scripts\python.exe -m pytest tests/ -v --cov=src --cov-report=term-missing
 ```
 
 **Current test count**: 20 tests -- 100% pass (as of 2026-01-15, Phase 6)
@@ -270,13 +270,13 @@ C:\AICOE\.venv\Scripts\python.exe -m pytest tests/ -v --cov=src --cov-report=ter
 
 ```powershell
 # Activate venv
-C:\AICOE\.venv\Scripts\Activate.ps1
+C:\eva-foundry\.venv\Scripts\Activate.ps1
 
 # Install dependencies
-C:\AICOE\.venv\Scripts\python.exe -m pip install -r requirements.txt
+C:\eva-foundry\.venv\Scripts\python.exe -m pip install -r requirements.txt
 
 # Run tests
-C:\AICOE\.venv\Scripts\python.exe -m pytest tests/ -v
+C:\eva-foundry\.venv\Scripts\python.exe -m pytest tests/ -v
 ```
 
 ---
@@ -359,9 +359,9 @@ Never hardcode credentials. Check `.env.example` for required keys.
 
 | Do NOT | Do instead |
 |---|---|
-| Use bare `python` | Use `C:\AICOE\.venv\Scripts\python.exe` |
+| Use bare `python` | Use `C:\eva-foundry\.venv\Scripts\python.exe` |
 | Add emoji to any output or doc | Use `[PASS]` / `[FAIL]` / `[INFO]` / `[WARN]` |
-| Hardcode old path `c:\Users\marco.presta\dev\...` | Use `C:\AICOE\eva-foundry\01-documentation-generator` |
+| Hardcode old path `c:\Users\marco.presta\dev\...` | Use `C:\eva-foundry\01-documentation-generator` |
 | Return only bool from validators | Return `(bool, list[str])` always |
 | Skip evidence report after generation | Always write `.json` + `.md` pair to `evidence/` |
 
@@ -375,7 +375,7 @@ None yet. Check `.github/copilot-skills/` before starting work.
 
 ### Deployment
 
-This is a local CLI/library tool -- no hosted deployment. Runs against the shared `C:\AICOE\.venv`.
+This is a local CLI/library tool -- no hosted deployment. Runs against the shared `C:\eva-foundry\.venv`.
 
 ---
 
@@ -383,7 +383,7 @@ This is a local CLI/library tool -- no hosted deployment. Runs against the share
 
 All must pass before merging a PR:
 
-- [ ] `C:\AICOE\.venv\Scripts\python.exe -m pytest tests/ -v` exits 0
+- [ ] `C:\eva-foundry\.venv\Scripts\python.exe -m pytest tests/ -v` exits 0
 - [ ] `validate-model.ps1` exits 0 (if any model layer was changed)
 - [ ] No [FORBIDDEN] encoding patterns in new code (no emoji, no Unicode above U+007F)
 - [ ] STATUS.md updated with session summary
@@ -393,6 +393,6 @@ All must pass before merging a PR:
 
 ---
 
-*Source template*: `C:\AICOE\eva-foundry\07-foundation-layer\02-design\artifact-templates\copilot-instructions-template.md` v3.1.0
+*Source template*: `C:\eva-foundry\07-foundation-layer\02-design\artifact-templates\copilot-instructions-template.md` v3.1.0
 *Applied*: 2026-02-25T07:06-05:00 by agent:copilot
-*EVA Data Model USER-GUIDE*: `C:\AICOE\eva-foundry\37-data-model\USER-GUIDE.md`
+*EVA Data Model USER-GUIDE*: `C:\eva-foundry\37-data-model\USER-GUIDE.md`

@@ -1,6 +1,6 @@
 # EVA Foundation - Documentation Generator
 
-**Status:** 🚧 Migration from `automation/` in progress (Phase 2 complete)
+**Status:** Migration from `automation/` in progress (Phase 2 complete)
 
 A modular, AI-powered documentation generation system for the EVA Foundation project. This tool uses Azure OpenAI to generate comprehensive, validated, and traceable documentation from source code and requirements.
 
@@ -26,7 +26,7 @@ This documentation generator is designed to:
 │       └── README.md            # System prompts documentation
 ├── tests/
 │   ├── __init__.py              # Test suite marker
-│   └── test_generator.py       # Unit tests for validators
+│   └── test_generator.py        # Unit tests for validators
 ├── prompts/
 │   └── README.md                # YAML templates documentation
 ├── docs/
@@ -40,7 +40,7 @@ This documentation generator is designed to:
 
 ## Features
 
-### ✅ Completed (Migrated from automation/)
+### Completed (Migrated from automation/)
 
 - **Validators Module** (`src/validators.py`)
   - YAML frontmatter validation
@@ -62,7 +62,7 @@ This documentation generator is designed to:
   - Integration test placeholders
   - Test fixtures for valid/invalid content
 
-### 🚧 Pending Migration (See PLAN.md)
+### Pending Migration (See PLAN.md)
 
 - **Generator Module** (Phase 3)
   - Main generation orchestration
@@ -174,12 +174,12 @@ python -m src.cli evidence --output-dir ../output
 
 Track the migration progress in [PLAN.md](PLAN.md). Current status:
 
-- ✅ **Phase 1**: Analysis and planning (Complete)
-- ✅ **Phase 2**: Scaffolding and module migration (Complete)
-- 🚧 **Phase 3**: Core generator migration (In Progress)
-- ⏳ **Phase 4**: CLI and integration (Pending)
-- ⏳ **Phase 5**: Testing and validation (Pending)
-- ⏳ **Phase 6**: Documentation and cleanup (Pending)
+- Phase 1: Analysis and planning (Complete)
+- Phase 2: Scaffolding and module migration (Complete)
+- Phase 3: Core generator migration (In Progress)
+- Phase 4: CLI and integration (Pending)
+- Phase 5: Testing and validation (Pending)
+- Phase 6: Documentation and cleanup (Pending)
 
 ## Development
 
